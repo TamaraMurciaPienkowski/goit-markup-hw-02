@@ -9,9 +9,10 @@ body {
   color:  #2196F3;
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
-  font-weight: bold;
-  font-size: 26;
-  letter-spacing: 3%;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1738;
+  letter-spacing: 0.03em;
   text-decoration: none;
   cursor: pointer;
 }
@@ -19,9 +20,10 @@ body {
     color:#000000;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    font-size: 26;
-    letter-spacing: 3%;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1738;
+    letter-spacing: 0.03em;
     text-decoration: none;
     cursor: pointer;
 }
@@ -30,19 +32,14 @@ body {
     color: #FFFFFF;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    font-size: 26;
-    letter-spacing: 3%;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1738;
+    letter-spacing: 0.03em;
     text-decoration: none;
     cursor: pointer;
 }
-.navigation li{
-    color: #212121;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14;
-    letter-spacing: 2%;
-    cursor: pointer;
+.navigation{
     list-style-type: none;  
 }
 
@@ -50,10 +47,12 @@ body {
     color: #212121;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    font-size: 14;
-    letter-spacing: 2%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.172;
+    letter-spacing: 0.02em;
     cursor: pointer;
-    list-style-type: none;  
+    list-style-type: none; 
 }
 
 .navigation a:hover{
@@ -67,8 +66,8 @@ body {
     color: #757575;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    font-size: 14;
-    letter-spacing: 2%;
+    font-size: 14px;
+    letter-spacing: 0.02em;
 }
 
 .contact a:hover{
@@ -84,8 +83,8 @@ body {
     background-color: #2F303A;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    font-size: 44;
-    letter-spacing: 6%;
+    font-size: 44px;
+    letter-spacing: 0.06em;
     line-height: 1.36;
     text-align: center;
 }
@@ -95,9 +94,9 @@ body {
     background-color: #2196F3;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    font-size: 16;
+    font-size: 16px;
     font-weight: bold;
-    letter-spacing: 6%;
+    letter-spacing: 0.06em;
     line-height: 1.875;
     cursor:pointer;
     border:none;
@@ -111,9 +110,9 @@ body {
     color: #212121;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    font-size: 14;
+    font-size: 14px;
     font-weight: bold;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     list-style-type: none;
 }
 
@@ -121,8 +120,8 @@ body {
     color: #757575;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    font-size: 14;
-    letter-spacing: 3%;
+    font-size: 14px;
+    letter-spacing: 0.03em;
     line-height: 1.714;
     list-style-type: none;
 }
@@ -130,8 +129,8 @@ body {
 .whatdowedo {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 33;
-    letter-spacing: 3%;
+    font-size: 33px;
+    letter-spacing: 0.03em;
     text-align: center;
 }
 
@@ -146,8 +145,8 @@ body {
 .ourteamtitle {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 36;
-    letter-spacing: 3%;
+    font-size: 36px;
+    letter-spacing: 0.03em;
     text-align: center;  
 }
 
@@ -163,16 +162,16 @@ body {
 .ourteamlist h3{
     color: #212121;
     font-family: 'Roboto', sans-serif;
-    font-size: 16;
-    letter-spacing: 3%;
+    font-size: 16px;
+    letter-spacing: 0.03em;
     text-align: center; 
 }
 
 .ourteamlist span{
     color: #757575;
     font-family: 'Roboto', sans-serif;
-    font-size: 16;
-    letter-spacing: 3%;
+    font-size: 16px;
+    letter-spacing: 0.03em;
     text-align: center; 
 }
 
@@ -185,8 +184,8 @@ body {
     border:none;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    font-size: 16;
-    letter-spacing: 3%;
+    font-size: 16px;
+    letter-spacing: 0.03em;
     line-height: 1.625;
 }
 
@@ -212,8 +211,8 @@ body {
     color: #212121;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    font-size: 18;
-    letter-spacing: 6%;
+    font-size: 18px;
+    letter-spacing: 0.06em;
     line-height: 2;
 }
 
@@ -221,32 +220,34 @@ body {
     color: #757575;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    font-size: 16;
-    letter-spacing: 3%;
+    font-size: 16px;
+    letter-spacing: 0.03em;
     line-height: 1.87;
 }
 
 .footnote {
     background-color:#2F303A;
+    font-family: 'Roboto', sans-serif;
 }
 
-.footnote a{
-    text-decoration:none;
-}
 .addressbottom {
+    font-style: normal;
+}
+.addressbottom span{
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    font-size: 14;
-    letter-spacing: 3%;
+    font-size: 14px;
+    letter-spacing: 0.03em;
     line-height: 1.714;
 }
 
-.contactbottom a{
+.addressbottom a{
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    font-style: normal;
     font-family: 'Roboto', sans-serif;
-    font-size: 14;
-    letter-spacing: 3%;
+    font-size: 14px;
+    letter-spacing: 0.03em;
     line-height: 1.714;
 }
