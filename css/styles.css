@@ -10,7 +10,7 @@
 }
 
 body{
-    color: #212121;
+    color: var(--title-text);
     font-family: 'Roboto', sans-serif;
 }
 
