@@ -1,5 +1,9 @@
+:root{
+    --
+}
+
 body{
-    color: #000000;
+    color: #212121;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -234,7 +238,6 @@ body{
 .footnote{
     background-color:#2F303A;
 }
-
 
 .address-bottom span{
     color: #FFFFFF;
