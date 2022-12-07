@@ -1,5 +1,12 @@
 :root{
-    --
+    --higlight-text:#2196F3;
+    --title-text: #212121;
+    --description-text: #757575;
+    --background-color: #FFFFFF;
+    --logo-anterior: #2196F3;
+    --logo-posterior: #000000;
+    --logo-posteriorprim: #FFFFFF;
+
 }
 
 body{
@@ -11,7 +18,7 @@ body{
     text-decoration: none;
 }
 .logo-anterior{
-  color:  #2196F3;
+  color: var(--logo-anterior);
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -22,7 +29,7 @@ body{
   cursor: pointer;
 }
 .logo-posterior{
-    color:#000000;
+    color:var(--logo-posterior);
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -34,7 +41,7 @@ body{
 }
 
 .logo-posterior-prim{
-    color: #FFFFFF;
+    color: var(--logo-posteriorprim);
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -49,7 +56,7 @@ body{
 }
 
 .navigation a{
-    color: #212121;
+    color: var(--title-text);
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -59,15 +66,15 @@ body{
 }
 
 .navigation a:hover{
-    color:#2196F3;
+    color: var(--higlight-text);
 }
 
 .navigation a:focus{
-    color:#2196F3;
+    color:var(--higlight-text);
 }
 
 .contact a{
-    color: #757575;
+    color: var(--description-text);
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -76,11 +83,11 @@ body{
 }
 
 .contact a:hover{
-    color:#2196F3;
+    color:var(--higlight-text);
 }
 
 .contact a:focus{
-    color:#2196F3;
+    color:var(--higlight-text);
 }
 
 .header{
@@ -96,7 +103,7 @@ body{
 }
 
 .click-to-order{
-    background-color: #2196F3;
+    background-color: var(--higlight-text);
     color: #FFFFFF;
     text-decoration: none;
     font-weight: 700;
@@ -112,7 +119,7 @@ body{
 }
 
 .adventages h3{
-    color: #212121;
+    color: var(--title-text);
     text-decoration: none;
     font-weight: 700;
     font-size: 14px;
@@ -122,7 +129,7 @@ body{
 }
 
 .adventages p{
-    color: #757575;
+    color: var(--description-text);
     text-decoration: none;
     font-size: 14px;
     line-height: 1.714;
@@ -131,7 +138,7 @@ body{
 }
 
 .what-do-we-do{
-    color: #212121;
+    color: var(--title-text);
     text-decoration: none;
     font-weight: 700;
     font-size: 36px;
@@ -149,7 +156,7 @@ body{
 }
 
 .our-team-title{
-    color: #212121;
+    color: var(--title-text);
     text-decoration: none;
     font-weight: 700;
     font-size: 36px;
@@ -163,11 +170,11 @@ body{
 }
 
 .our-team-list figure{
-    background-color: #FFFFFF;
+    background-color: var(--background-color);
 }
 
 .our-team-list h3{
-    color: #212121;
+    color: var(--title-text);
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
@@ -177,7 +184,7 @@ body{
 }
 
 .our-team-list span{
-    color: #757575;
+    color: var(--description-text);
     text-decoration: none;
     font-size: 16px;
     line-height: 1.171;
@@ -201,13 +208,13 @@ body{
 }
 
 .portfolio-button-list button:hover {
-    background-color: #2196F3; 
-    color:#FFFFFF;
+    background-color: var(--higlight-text); 
+    color:var(--background-color);
 }
 
 .portfolio-button-list button:focus {
-    background-color: #2196F3; 
-    color:#FFFFFF;
+    background-color: var(--higlight-text); 
+    color:var(--background-color);
 }
 
 .projects-list {
@@ -219,7 +226,7 @@ body{
 }
 
 .projects-list h3{
-    color: #212121;
+    color: var(--title-text);
     text-decoration: none;
     font-weight: 700;
     font-size: 18px;
@@ -228,7 +235,7 @@ body{
 }
 
 .projects-list span{
-    color: #757575;
+    color: var(--description-text);
     text-decoration: none;
     font-size: 16px;
     line-height: 1.87;
@@ -258,9 +265,9 @@ body{
 }
 
 .address-bottom a:hover{
-    color:#2196F3;
+    color:var(--higlight-text);
 }
 
 .address-bottom a:focus{
-    color:#2196F3;
+    color:var(--higlight-text);
 }
